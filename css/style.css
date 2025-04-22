@@ -329,3 +329,238 @@ ul,ol{
 
 
 
+
+/* ==========================
+        client part start
+============================= */
+
+.client-part{
+    background-color: white;
+    padding: 130px;
+}
+
+
+
+.client-part h2{
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    width: 327px;
+
+}
+
+
+
+.client-part p{
+    width: 327px;
+}
+
+
+.client-part h3{
+    width: 843px;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.client-part .jenny{
+    display: flex;
+    padding-top: 48px;
+}
+
+
+.client-part h5{
+    padding-left: 14px;
+
+    
+}
+
+
+/* ==========================
+       question part start
+============================= */
+
+
+.question-part{
+    background-color: rgb(245, 245, 245);
+    padding: 128px;
+}
+
+
+.question-part h3{
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    width: 320px;
+
+    
+
+}
+
+
+
+
+/* ==========================
+        question part end
+============================= */
+
+
+
+
+
+
+/* ==========================
+        form part start
+============================= */
+
+
+.form-part .left-part{
+    background-image: url(/img/woman-writing-on-paper-3228878.png);
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+}
+
+
+
+.form-part .left-part h2{
+    padding: 96px 0px 0px 96px;
+    font-size: 54px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: white;
+
+}
+
+
+
+.form-part .left-part p{
+    padding: 24px 96px 261px 96px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+.form-part .form1 h3{
+    color: white;
+    padding: 96px 0px 0px 96px;
+
+    
+
+}
+
+
+
+
+
+
+.form-part .form1{
+    background-color:#1C1E53;
+    padding-bottom: 20px;
+    
+
+    
+}
+
+
+
+
+
+
+
+
+.form-part .form1 p{
+    width: 520px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    padding-left: 102px;
+    padding-top: 8px;
+    margin-bottom: 0px;
+    padding-bottom: 48px;
+
+    
+}
+
+
+
+
+
+.form-part .form1 form{
+    width:320px;
+    padding-left: 102px;
+    
+
+    
+
+}
+
+
+.form-part .form1 form input{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 18px 0px 18px 32px;
+    padding-right: 211px;
+    margin-bottom: 16px;
+
+}
+
+.form-part .form1 .form-btn{
+    display: inline-block;
+    background-color: #FCD980;
+    margin-left: 110px;
+    padding: 16px 150px;
+    border-radius: 41px;
+    margin-top: 25px;
+    color: #1B1C2B;
+    font-size: 18px;
+    font-weight: 600;
+
+
+}
+
+
+.form-part .form1 .form-btn-2{
+    color: white;
+    padding-left: 255px;
+    padding-top: 33px;
+    display: inline-block;
+    padding-bottom: 35px;
+
+
+}
+
+
+
+/* ==========================
+        form part end
+============================= */
+
+
+
+
+/* ==========================
+        blog part start
+============================= */
+
+
+.blog-part h2{
+    padding-top: 77px;
+    padding-bottom: 64PX;
+}
+
+
+
+/* ==========================
+        blog part end
+============================= */
