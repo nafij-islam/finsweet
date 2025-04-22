@@ -2,6 +2,11 @@
         common css
 ============================= */
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 a{
     text-decoration: none;
 }
@@ -20,7 +25,7 @@ ul,ol{
 ============================= */
 .navbar{
     background-color: #1C1E53;
-    padding: 16px 0px;
+    padding: 16px 0px !important;
 }
 
 
@@ -67,37 +72,44 @@ ul,ol{
 /* ==========================
         Banner part start
 ============================= */
+
 .banner{
     background-color: #1C1E53;
     padding: 128px 0px;
 }
 
 
-.banner .left h1{
+.banner  h1{
     color: white;
     font-weight: 600;
     font-size: 54px;
     font-family: "Poppins", sans-serif;
+    line-height: 74px;
+
 
 }
 
 
-.banner .left p{
-    color: white;
+.banner  p{
+    color: rgba(255, 255, 255,0.70);
     font-weight: 500;
     font-size: 18px;
+    width: 562px;
     font-family: "Poppins", sans-serif;
     padding-top: 24px;
     padding-bottom: 48px;
+
 
 }
 
 
 .banner  .banner-btn{
+    display: inline-block;
     padding: 16px 56px;
     background-color: #FCD980;
     border-radius: 41px ;
     color: #1B1C2B;
+    font-size: 18px;
     font-weight: 600;
     font-family: "Manrope", sans-serif;
     border: 1px solid transparent;
@@ -112,6 +124,208 @@ ul,ol{
 }
 
 
+
+
+
 /* ==========================
-        nabver part end
+        banner part end
 ============================= */
+
+
+
+
+/* ==========================
+        work part start
+============================= */
+.work{
+    padding: 128px;
+    background-color: #F4F6FC;
+}
+
+.work .card-1{
+    padding-bottom: 48px;
+}
+
+
+.work h2{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+    width: 405px;
+    
+
+}
+
+.work .left-p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    width: 405px;
+
+}
+
+
+
+.work .work-btn{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #2405F2;
+}
+
+
+.work h3{
+    font-size: 32px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    padding: 16px 0px 8px 0px;
+
+}
+
+
+.work p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    width: 303px;
+}
+
+
+
+
+
+
+/* ==========================
+        work part end
+============================= */
+
+
+/* ==========================
+        peoject part start
+============================= */
+
+.project{
+    padding: 128px;
+    background-color: white;
+}
+
+.project .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project .header h2{
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+
+
+}
+
+.project .header a{
+    color: black;
+}
+
+/* imp-part */
+
+.project .img-part{
+    padding-top: 64px;
+}
+
+
+.project .img-part .img1{
+    padding-bottom: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================
+        peoject part end
+============================= */
+
+
+
+
+
+/* ==========================
+        designt part start
+============================= */
+.design-part{
+    background-color: #F4F6FC;
+    padding: 128px;
+}
+
+.design-part .head{
+    text-align: center;
+    
+}
+.design-part .head h6{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.design-part .head h2{
+    color: #282938;
+    font-size: 48px;
+    width: 630px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    display: inline-block;
+    padding-top: 12px;
+
+
+}
+.design-part .cart-section{
+    padding-top: 47px;
+}
+
+
+.design-part .card-part{
+    background-color: white;
+    padding: 58px 32px 48px 48px;
+    margin-bottom: 24px;
+
+}
+
+
+
+.design-part .card-part h3{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    padding: 22px 0px 12px 0px;
+
+}
+.design-part .card-part p{
+    font-size: 16px;
+    font-weight: 400;
+    width: 280px;
+}
+
+
+
+
+
+
+
+
+
+/* ==========================
+        design part end
+============================= */
+
+
+
