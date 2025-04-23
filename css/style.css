@@ -128,11 +128,27 @@ ul,ol{
 .banner .banner-btn2{
     display: inline-block;
     color: white;
-    
+    margin-left: 40px;
+    position: relative;
+
+}
+
+
+.banner .banner-btn2 .fa-solid{
+    position: absolute;
+    top: 50%;
+    left: 90px;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: 0.5s;
+}
 
 
 
-    
+.banner .banner-btn2:hover .fa-solid{
+    opacity: 1;
+    left: 110px;
+
 }
 
 
