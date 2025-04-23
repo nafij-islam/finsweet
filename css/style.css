@@ -117,13 +117,23 @@ ul,ol{
 }
 
 
+
+
 .banner  .banner-btn:hover{
     background-color: transparent;
     border: 1px solid white;
     color: white;
 }
 
+.banner .banner-btn2{
+    display: inline-block;
+    color: white;
+    
 
+
+
+    
+}
 
 
 
@@ -557,10 +567,41 @@ ul,ol{
 .blog-part h2{
     padding-top: 77px;
     padding-bottom: 64PX;
+    margin-left: -72px;
+    margin-right: 72px;
+
+}
+
+
+.blog-part .blog{
+    margin-left: -72px;
+    margin-right: 72px;
 }
 
 
 
 /* ==========================
         blog part end
+============================= */
+
+
+
+
+/* ==========================
+        fotter part start
+============================= */
+
+.fotter{
+    background-color: #1C1E53;
+}
+
+
+   
+
+
+
+
+
+/* ==========================
+        fotter part end
 ============================= */
