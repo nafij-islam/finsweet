@@ -192,12 +192,31 @@ ul,ol{
 }
 
 
-
 .work .work-btn{
     font-size: 18px;
     font-weight: 500;
     font-family: "Poppins", sans-serif;
     color: #2405F2;
+    position: relative;
+}
+
+
+.work .work-btn .fa-solid{
+    position: absolute;
+    top: 50%;
+    left: 185px;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+
+
+
+.work .work-btn:hover .fa-solid{
+    opacity: 1;
+    left: 200px;
+
 }
 
 
@@ -252,7 +271,37 @@ ul,ol{
 
 .project .header a{
     color: black;
+    position: relative;
 }
+
+
+
+.project .header .fa-solid{
+    position: absolute;
+    top: 50%;
+    left: 75px;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.project .header a:hover .fa-solid{
+    opacity: 1;
+    left: 90px;
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* imp-part */
 
@@ -261,9 +310,72 @@ ul,ol{
 }
 
 
-.project .img-part .img1{
-    padding-bottom: 32px;
+.project .img-part .img-left{
+    width: 100%;
+
 }
+
+.project .img-part .main-img{
+    position: relative;
+    overflow: hidden;
+}
+
+
+.project .img-part .overly{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 0%;
+    background-color: #2405F2;
+    transition: 0.5s;
+}
+
+
+
+.project .img-part .main-img:hover .overly{
+    width: 52%;
+}
+
+
+
+
+
+
+
+
+.project .img1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 28px;
+}
+
+
+
+.project .img1 .img-2{
+    position: relative;
+    
+}
+
+
+.project .img1 .img-2 .overly{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 0%;
+    background-color: #2405F2;
+    transition: 0.7s;
+}
+
+
+.project .img1 .img-2:hover .overly{
+    width: 100%;
+
+}
+
+
 
 
 
