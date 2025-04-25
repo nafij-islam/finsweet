@@ -323,11 +323,11 @@ ul,ol{
 
 .project .img-part .overly{
     position: absolute;
-    left: 0;
+    left: -52%;
     top: 0;
     height: 100%;
-    width: 0%;
-    background-color: #2405F2;
+    width: 52%;
+    background-image: linear-gradient( rgba(59, 48, 206, 0.763),rgb(2, 20, 84,0.5));
     transition: 0.5s;
 }
 
@@ -335,7 +335,41 @@ ul,ol{
 
 .project .img-part .main-img:hover .overly{
     width: 52%;
+    left: 0;
 }
+.project .img-part .overly .web-flow{
+    padding: 312px 0px 76px 48px;
+}
+
+
+.project .img-part .overly .web-flow h3{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    width: 313px;
+}
+
+
+.project .img-part .overly .web-flow p{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    padding-top: 16px;
+    padding-bottom: 40px;
+    width: 293px;
+}
+
+
+
+.project .img-part .overly .web-flow a{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #FCD980;
+}
+
 
 
 
@@ -355,25 +389,55 @@ ul,ol{
 
 .project .img1 .img-2{
     position: relative;
+    overflow: hidden;
     
 }
 
 
 .project .img1 .img-2 .overly{
     position: absolute;
-    left: 0;
+    left: -100%;
     top: 0;
     height: 100%;
     width: 0%;
-    background-color: #2405F2;
+    background-image: linear-gradient( rgba(59, 48, 206, 0.763),rgb(2, 20, 84,0.5));
     transition: 0.7s;
 }
 
 
 .project .img1 .img-2:hover .overly{
     width: 100%;
+    left: 0;
 
 }
+
+
+
+.project .img1 .img-2 .overly h3{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    width: 290px;
+
+}
+
+
+.project .img1 .img-2 .overly a{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #FCD980;
+
+}
+
+
+.project .img1 .img-2 .overly .unisaas{
+    padding: 129px 0px 45px 46px;
+}
+
+
+
 
 
 
