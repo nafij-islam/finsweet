@@ -334,7 +334,7 @@ ul,ol{
 
 
 .project .img-part .main-img:hover .overly{
-    width: 52%;
+    width: 48%;
     left: 0;
 }
 .project .img-part .overly .web-flow{
@@ -755,6 +755,9 @@ ul,ol{
         blog part start
 ============================= */
 
+.blog-part{
+    padding-bottom: 179px;
+}
 
 .blog-part h2{
     padding-top: 77px;
@@ -786,6 +789,58 @@ ul,ol{
 .fotter{
     background-color: #1C1E53;
 }
+
+
+.fotter .left-part {
+    padding: 100px 0px 0px 158px;
+}
+
+
+.fotter .left-part p{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 22px;
+    padding-bottom: 86px;
+
+}
+
+
+.fotter .left-part .contact{
+    display: flex;
+    background-color: #FCD980;
+}
+
+.fotter .left-part .contact .left{
+
+    padding: 18px 0px 16px 37px;
+}
+
+.fotter .left-part .contact .right1{
+
+    padding: 17px 0px 17px 29px;
+}
+
+
+.fotter .right2{
+    padding: 96px 0px 95px 141px;
+}
+
+.fotter .right2 h2{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+
+.fotter .right2 p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
 
 
    
