@@ -39,8 +39,31 @@ ul,ol{
     font-weight: 500;
     font-family: "Poppins", sans-serif;
     padding: 0px !important; 
+    position: relative;
     
 }
+
+
+.navbar .nav-link::after{
+    content: "";
+    bottom: -3px;
+    right: 0;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #BBBBCB;
+    transition: 0.5s;
+}
+
+.navbar .nav-link:hover::after{
+    width: 100%;
+
+}
+
+
+
+
+
 
 .navbar .nav-contact-btn{
     margin-left: 48px;
@@ -136,7 +159,7 @@ ul,ol{
 
 .banner .banner-btn2 .fa-solid{
     position: absolute;
-    top: 50%;
+    top: 15px;
     left: 90px;
     transform: translateY(-50%);
     opacity: 0;
@@ -203,7 +226,7 @@ ul,ol{
 
 .work .work-btn .fa-solid{
     position: absolute;
-    top: 50%;
+    top: 15px;
     left: 185px;
     transform: translateY(-50%);
     opacity: 0;
@@ -278,7 +301,7 @@ ul,ol{
 
 .project .header .fa-solid{
     position: absolute;
-    top: 50%;
+    top: 15px;
     left: 75px;
     transform: translateY(-50%);
     opacity: 0;
@@ -566,6 +589,24 @@ ul,ol{
     line-height: 48px;
 }
 
+
+.client-part .jenny{
+    display: flex;
+    padding-top: 51px;
+}
+
+
+.client-part .jenny .wilson{
+    padding-left: 14px;
+}
+
+
+.client-part .jenny .wilson p{
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+
+}
 /* ==========================
        question part start
 ============================= */
@@ -583,7 +624,17 @@ ul,ol{
     font-family: "Poppins", sans-serif;
     width: 320px;
 
-    
+}
+
+.question-part a{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #2405F2;
+    padding-top: 16px;
+
+
 
 }
 
@@ -593,7 +644,6 @@ ul,ol{
 /* ==========================
         question part end
 ============================= */
-
 
 
 
