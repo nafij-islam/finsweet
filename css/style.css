@@ -558,26 +558,13 @@ ul,ol{
 }
 
 
-.client-part h3{
+.client-part  h3{
     width: 843px;
+    font-family: "Poppins", sans-serif;
     font-size: 32px;
     font-weight: 500;
-    font-family: "Poppins", sans-serif;
+    line-height: 48px;
 }
-
-
-.client-part .jenny{
-    display: flex;
-    padding-top: 48px;
-}
-
-
-.client-part h5{
-    padding-left: 14px;
-
-    
-}
-
 
 /* ==========================
        question part start
