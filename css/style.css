@@ -633,8 +633,15 @@ ul,ol{
     font-family: "Poppins", sans-serif;
     color: #2405F2;
     padding-top: 16px;
+}
 
 
+.question-part span{
+    font-size: 24px;
+    padding-right: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #2405F2;
 
 }
 
