@@ -552,7 +552,7 @@ ul,ol{
 ============================= */
 
 .client-part{
-    background-color: white;
+    background-color: hsl(200, 57%, 97%);
     padding: 130px;
 }
 
@@ -728,10 +728,72 @@ ul,ol{
 
 .form-part .form{
     background-color: #1C1E53;
+    padding: 96px 96px 48px 96px;
+}
+
+
+.form-part .form h5{
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.form-part .form p{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    padding-top: 8px;
+    padding-bottom: 48PX;
+}
+
+.form-part .form input{
+    color: white;
+    width: 100%;
+    padding: 18px 32px;
+    background: transparent;
+    border: 1px solid #FFFFFF0D;
+    margin-bottom: 16px;
+    
+}
+
+.form-part .form input::placeholder{
+    color: #F4F6FC;
 }
 
 
 
+
+
+.form-part .form button{
+    width: 100%;
+    padding: 16px 150px;
+    background-color: #FCD980;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Manrope", sans-serif;
+    border-radius: 41px;
+    border: none;
+    margin-bottom: 29px;
+    margin-top: 14px;
+
+}
+.form-part .form .btn-1{
+    text-align: center;
+    padding-top: 12px;
+}
+
+.form-part .form .btn-1 a{
+    color: white;
+}
+
+
+
+.form-part .form .btn-1 .fa-solid{
+    color: white;
+}
 
 
 
@@ -775,6 +837,14 @@ ul,ol{
 
 .blog-part .card h4{
     padding-bottom: 16px;
+}
+
+.blog-part .card a{
+    color: black;
+    display: inline-block;
+    padding-top: 32px;
+
+    
 }
 
 
