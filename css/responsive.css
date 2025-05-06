@@ -7,12 +7,11 @@
     .navbar-collapse .navbar-nav{
         align-items: center;
         row-gap: 15px;
-        
+        padding: 20px 0px;
     }
     
     .navbar-collapse{
         background-color: rgba(48, 162, 183, 0.612);
-        padding: 20px 0px;
         margin-top: 20px;
         border-radius: 10px;
 
@@ -22,8 +21,8 @@
         
         padding: 8px 35px;
         margin-left: 0px;
-        margin-top: 10px;
         font-size: 14px;
+        margin-bottom: 20px;
 
         
     }
