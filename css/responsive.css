@@ -1,0 +1,40 @@
+@media (min-width:320px) and (max-width:575.99px){
+
+    .navbar-toggler{
+        background-color: aliceblue;
+
+    }
+    .navbar-collapse .navbar-nav{
+        align-items: center;
+        row-gap: 15px;
+        
+    }
+    
+    .navbar-collapse{
+        background-color: rgba(48, 162, 183, 0.612);
+        padding: 20px 0px;
+        margin-top: 20px;
+        border-radius: 10px;
+
+    }
+
+    .navbar .nav-contact-btn {
+        
+        padding: 8px 35px;
+        margin-left: 0px;
+        margin-top: 10px;
+        font-size: 14px;
+
+        
+    }
+    .navber-batton{
+        text-align: center;
+    }
+
+    .navbar .nav-link {
+        font-size: 14px;
+       
+    }
+    
+
+}

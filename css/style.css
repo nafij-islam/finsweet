@@ -75,6 +75,7 @@ ul,ol{
     border-radius: 41px;
     color: white;
     transition: 0.4s;
+    display: inline-block;
 
 
 }
@@ -783,17 +784,31 @@ ul,ol{
 .form-part .form .btn-1{
     text-align: center;
     padding-top: 12px;
+    
 }
 
 .form-part .form .btn-1 a{
     color: white;
+    position: relative;
 }
 
 
 
 .form-part .form .btn-1 .fa-solid{
     color: white;
+    position: absolute;
+    top: 5px;
+    left: 150px;
+    opacity: 0;
+    transition: 0.5s;
 }
+
+.form-part .form .btn-1:hover .fa-solid{
+    left: 165px;
+    opacity: 1;
+}
+
+
 
 
 
@@ -843,8 +858,21 @@ ul,ol{
     color: black;
     display: inline-block;
     padding-top: 32px;
+    position: relative;
+}
 
-    
+
+.blog-part .card a .fa-solid{
+    position: absolute;
+    top: 38px;
+    left: 80px;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.blog-part .card a:hover .fa-solid{
+    left: 95px;
+    opacity: 1;
 }
 
 
