@@ -2,18 +2,21 @@
 
     .navbar-toggler{
         background-color: aliceblue;
+        
 
     }
     .navbar-collapse .navbar-nav{
         align-items: center;
         row-gap: 20px;
         padding: 20px 0px;
+        
     }
     
     .navbar-collapse{
         background-color: rgba(48, 162, 183, 0.612);
         border-radius: 10px;
-        margin-top: 10px;
+        margin: 10px 0px;
+        
 
     }
 
@@ -27,6 +30,63 @@
         margin-left: 0px;
         margin-bottom: 20px;
     }
+
+
+
+
+    /* bannner part */
+
+
+    .banner {
+        padding: 50px 0px;
+    }
+
+    .banner h1 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+
+    .banner p {
+        width: auto;
+       
+    }
+
+    .banner .banner-btn {
+        padding: 10px 32px;
+        font-size: 15px;
+    }
+    .banner .banner-btn2 {
+        margin-left: 9px;
+       
+    }
+
+    .banner img{
+        width: 100%;
+        padding-top: 20px;
+    }
+
+/*work part */
+    .work h2 {
+        font-size: 31px;
+        font-weight: 600;
+        font-family: "Poppins", sans-serif;
+        color: #282938;
+        width: 405px;
+        padding-bottom: 14px;
+    }
+    .work .left-p {
+       width: auto;
+        
+    }
+
+     {
+        padding-top: 40px;
+    }
+
+
+  
+   
     
 
 
