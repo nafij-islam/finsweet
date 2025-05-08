@@ -11,6 +11,10 @@
         padding: 20px 0px;
         
     }
+
+	.navber-position{
+		position: relative;
+	}
     
     .navbar-collapse{
         background-color: rgba(48, 100, 183, 0.911);
@@ -355,17 +359,23 @@
 
 @media (min-width:576px) and (max-width:767.99px){
 
+	
+
     .navbar-toggler{
         background-color: aliceblue;
-        
 
+		
     }
     .navbar-collapse .navbar-nav{
         align-items: center;
         row-gap: 20px;
         padding: 20px 0px;
-        
+		
     }
+
+	.navber-position{
+		position: relative;
+	}
     
     .navbar-collapse{
         background-color: rgba(48, 100, 183, 0.911);
@@ -398,7 +408,7 @@
 
 
     .banner {
-        padding: 50px 0px;
+        padding: 85px 0px;
     }
 
 	.banner h1 {
