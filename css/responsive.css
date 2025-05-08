@@ -13,9 +13,14 @@
     }
     
     .navbar-collapse{
-        background-color: rgba(48, 162, 183, 0.612);
+        background-color: rgba(48, 100, 183, 0.911);
         border-radius: 10px;
         margin: 10px 0px;
+		position: absolute;
+		top: 60px;
+		left: 50%;
+		width: 90%;
+		transform: translateX(-50%);
         
 
     }
@@ -93,6 +98,363 @@
 .work .card-1 {
 	padding: 0px 60px;
     width: 100%;
+}
+
+
+.work .card-part{
+    padding-top: 40px;
+    row-gap: 30px;
+}
+
+/* project */
+.project .header {
+	display: block;
+	
+}
+
+.project {
+	padding: 50px 0px;
+	
+}
+
+.project .header h2 {
+	font-size: 30px;
+	
+}
+ 
+
+.project .img-part {
+    padding: 50px 20px 0px 20px;
+}
+
+
+
+
+
+/*  */
+
+
+.design-part {
+	padding: 50px 0px;
+}
+
+.design-part .head h2 {
+	
+	font-size: 25px;
+	width: auto;
+	
+}
+
+
+.design-part .card-part h3 {
+	font-size: 21px;
+	
+}
+   
+
+.design-part .card-part p {
+	width: auto;
+}
+    
+
+
+/*  */
+
+
+.client-part {
+	padding: 80px 0px;
+}
+
+
+.client-part h2 {
+	font-size: 30px;
+	width: auto;
+    line-height: 45px;
+	
+}
+
+
+.client-part p {
+	width: auto;
+}
+
+
+.client-part h3 {
+	width: auto;
+	font-size: 20px;
+	line-height: 42px;
+}
+    
+
+/*  */
+
+.question-part {
+	padding: 80px 0px;
+}
+
+.question-part h3 {
+	font-size: 34px;
+	width: auto;
+}
+
+.question-part a {
+	font-size: 13px;
+}
+
+
+/*  */
+
+
+.question-part span {
+	font-size: 12px;
+	padding-right: 19px;
+	
+}
+
+
+.question-part .accordion-button {
+	font-size: 13px;
+	
+}
+
+
+.question-part .accordion-body {
+	padding: 5px 3px 48px 20px;
+	margin-bottom: 5px;
+}
+
+
+.accordion-flush > .accordion-item:first-child {
+	margin-top: 20px;
+}
+
+
+
+.form-part .left-part .overly h4 {
+	font-size: 28px;
+	padding-top: 5px;
+	padding-left: 23px;
+	width: auto;
+	line-height: 47px;
+}
+
+
+
+.form-part .left-part .overly p {
+	font-size: 14px;
+	padding-top: 0px;
+	padding-left: 26px;
+	width: auto;
+}
+
+
+.form-part .form {
+	padding: 14px;
+}
+
+
+.form-part .form button {
+	width: 100%;
+	padding: 14px 50px;
+	font-size: 15px;
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+
+
+.form-part .form .btn-1 {
+	padding-top: 0px;
+	padding-bottom: 10px;
+}
+   
+/*  */
+
+.blog-part {
+	padding-bottom: 50px;
+}
+
+
+.blog-part h2 {
+	padding-top: 34px;
+	padding-bottom: 15PX;
+}
+
+.blog-part .card h6 {
+	padding-top: 13px;
+	padding-bottom: 3px;
+}
+
+.blog-part .card a {
+	padding-top: 16px;
+}
+
+.fotter .left-part {
+	padding: 16px 0px;
+}
+
+
+.fotter .left-part p {
+	font-size: 14px;
+	padding-top: 13px;
+	padding-bottom: 17px;
+}
+
+.fotter .left-part .contact .left {
+	padding: 30px 0px 0px 15px;
+}
+
+.fotter .left-part .contact .left h5{
+    font-size: 14px;
+    
+}
+
+
+
+.fotter .left-part .contact .left h6{
+    font-size: 14px;
+    
+}
+
+
+.fotter .left-part .contact .right1 {
+	padding: 31px 0px 5px 19px;
+}
+
+
+.fotter .left-part .contact .right1 h5{
+    font-size: 14px;
+    
+}
+
+.fotter .left-part .contact .right1 h6{
+    font-size: 14px;
+    
+}
+
+/*  */
+
+
+.fotter .right2 {
+	padding: 16px 0px;
+}
+
+.copyright .box {
+	padding-top: 15px;
+	padding-bottom: 13px;
+	padding-left: 0px;
+}
+
+	
+
+    
+    
+
+}
+
+
+
+@media (min-width:576px) and (max-width:767.99px){
+
+    .navbar-toggler{
+        background-color: aliceblue;
+        
+
+    }
+    .navbar-collapse .navbar-nav{
+        align-items: center;
+        row-gap: 20px;
+        padding: 20px 0px;
+        
+    }
+    
+    .navbar-collapse{
+        background-color: rgba(48, 100, 183, 0.911);
+        border-radius: 10px;
+        margin: 10px 0px;
+		position: absolute;
+		top: 60px;
+		left: 50%;
+		width: 90%;
+		transform: translateX(-50%);
+        
+
+    }
+
+
+    .navber .navber-batton{
+        text-align: center;
+    }
+    
+    .navbar .nav-contact-btn {
+        padding: 10px 37px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+
+
+
+
+    /* bannner part */
+
+
+    .banner {
+        padding: 50px 0px;
+    }
+
+	.banner h1 {
+		font-size: 40px;
+		line-height: 60px;
+	}
+
+
+    .banner p {
+        width: auto;
+       
+    }
+
+    .banner .banner-btn {
+		padding: 14px 43px;
+		font-size: 16px;
+	}
+    .banner .banner-btn2 {
+		margin-left: 50px;
+	}
+
+    .banner .banner-img{
+        text-align: center;
+    }
+	.banner img {
+		width: 100%;
+		padding-top: 50px;
+	}
+
+/*work part */
+
+
+
+.work h2 {
+	font-size: 40px;
+	
+}
+
+.work .left-p {
+	width: auto;
+    font-size: 14px;
+
+}
+
+.work h3 {
+	font-size: 37px;
+	padding: 27px 0px 12px 0px;
+}
+
+.work p {
+	width: auto;
+}
+
+.work .card-1 {
+	padding: 0px 10px;
+	width: 100%;
 }
 
 
